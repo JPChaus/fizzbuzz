@@ -5,6 +5,9 @@ def main():
 def printValue(i):
     if((i%3 != 0) and (i%5 != 0)):
         return i
+    if((i%3 == 0) and (i%5 != 0)):
+        return "Fizz"
+
 
 if __name__ == '__main__':
     main()
