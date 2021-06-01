@@ -9,6 +9,8 @@ def printValue(i):
         return "Fizz"
     if((i%3 != 0) and (i%5 == 0)):
         return "Buzz"
+    if((i%3 == 0) and (i%5 == 0)):
+        return "FizzBuzz"
 
 
 if __name__ == '__main__':
